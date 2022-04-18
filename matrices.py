@@ -1,11 +1,16 @@
-lista=[[1,2,3],[1,2,3],[1,2,3]]
-
-print(lista)
+mtz=[[1,2,3],[1,2,3],[1,2,3]]
 
 
-for c in lista:
- print(c)
+
+
+
  
  
  
- def recorrer_matriz
+def recorrer_matriz(mtz):
+     for m in mtz:
+         print(m) 
+         
+         
+if __name__=='__main__':
+    recorrer_matriz(mtz)
